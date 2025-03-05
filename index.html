@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus On Today</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Focus on <span id="titleChild">Today</span></h1>
+      <div class="appContainer">
+        <h2 id="subTitle">
+          <span>Today</span>
+          <img src="./images/🦆 icon _Sun_.svg" alt="Sun" class="sunIcon" />
+          <!-- <img class="face" src="./images//Group 3.svg" alt=""> -->
+        </h2>
+        <div class="box"></div>
+        <p id="tagLine">Raise the bar by completing your goals!</p>
+        <div class="progressBar">
+          <div class="progressValue"><span id="dynamic"></span><span>/3 Completed</span></div>
+        </div>
+        <p class="error">Please set all the 3 goals!</p>
+        <div class="goalContainer">
+          <div class="checkBox"><i class="fa-solid fa-check"></i></div>
+          <input
+            type="text"
+            class="goal"
+            id="first"
+            placeholder="Add new goal..."
+          />
+        </div>
+        <div class="goalContainer">
+          <div class="checkBox"><i class="fa-solid fa-check"></i></div>
+          <input
+            type="text"
+            class="goal"
+            id="second"
+            placeholder="Add new goal..."
+          />
+        </div>
+        <div class="goalContainer">
+          <div class="checkBox"><i class="fa-solid fa-check"></i></div>
+          <input
+            type="text"
+            class="goal"
+            id="third"
+            placeholder="Add new goal..."
+          />
+        </div>
+        <p class="quote">“Move one step ahead, today!”</p>
+        <p class="footer">Made with ❤️ by Shreya Poojari</p>
+      </div>
+    </main>
+  </body>
+</html>
